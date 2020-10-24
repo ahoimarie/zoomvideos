@@ -39,4 +39,15 @@ Some clarification:
 
 
 
+# Optional: Automate
+## Create a script with Mac's `Script Editor`
+Open Mac's `Script Editor` and copy this line into it. Save it as your `automaticZoomDownload.app`. Now you can double-click your shell script, which will download and sort your videos automatically (and delete the downloaded recordings from your Zoom storage).
+
+```bash
+do shell script "/bin/bash ~/yourprojectfolder/automatic_zoom_download.sh"
+```
+
+When you created an app with this one line in the `Script Editor`, you can further automate your downloads with your calendar as explained [here](https://osxdaily.com/2013/04/15/launch-file-app-scheduled-date-mac-os-x/). Now your app will automatically download, sort and delete your Zoom meetings according to your calendar settings! 
+
+
 
